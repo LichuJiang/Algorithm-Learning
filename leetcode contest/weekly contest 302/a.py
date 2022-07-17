@@ -1,5 +1,6 @@
+from collections import Counter
 class Solution:
-    def numberOfPairs(self, nums: List[int]) -> List[int]:
+    def numberOfPairs(self, nums):
         mp=Counter(nums)
         #print(mp)
         pair=0

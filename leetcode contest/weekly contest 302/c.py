@@ -10,7 +10,7 @@ class Node:
             else:
                 return self.value<other.value
 class Solution:   
-    def smallestTrimmedNumbers(self, nums: List[str], queries: List[List[int]]) -> List[int]:
+    def smallestTrimmedNumbers(self, nums, queries):
         res=[]
         for query in queries:
             last_digit=query[1]
